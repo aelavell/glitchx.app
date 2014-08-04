@@ -20,7 +20,7 @@ body {
 }
 
 .content { 
-    background-color: #1f1f1f;
+    background-color: #202020;
 }
 	
 nav {
@@ -80,7 +80,7 @@ text-transform: uppercase;
     background-position: top center;
     background-size: cover;
     position: relative;
-    background-color: #1F1F1F;
+    background-color: #202020;
     padding-top: 120px;
     padding-bottom: 100px;
 }
@@ -188,7 +188,7 @@ form {
     background-position: top center;
     background-size: cover;
     position: relative;
-    background-color: #1F1F1F;
+    background-color: #202020;
     padding-top: 100px;
 }
 
@@ -247,7 +247,7 @@ form {
     height: 80px;
     background-size: cover;
     background-position: top center;
-    background-color:black;
+    background-color:#202020;
     margin: 0 auto; 
 }
 
@@ -256,7 +256,7 @@ form {
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 10px;
-    text-transform: uppercase;
+    text-teansform: uppercase;
     color: white; 
     text-align: center;
     margin-top: 5px;
