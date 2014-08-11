@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+a.anchor{display: block; position: relative; top: -70px; visibility: hidden;}
+
 body {
 	padding: 0;
 	margin: 0;	
@@ -72,7 +74,7 @@ a:hover {
 }
 
 .logo img {
-  height: 65px  
+  height: 65px;  
 }
 
 #section1 {	
@@ -83,6 +85,33 @@ a:hover {
     position: relative;
     background-color: #202020;
     padding-top: 125px;
+}
+
+#support {	
+    text-align: left;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    background-color: #202020;
+    padding-top: 110px;
+    font-family: avenir;
+    color: white;
+}
+
+#support h1 {
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+#support p {
+  padding-bottom: 10px;
+}
+
+#support video {
+  display:block;
+  padding-bottom: 10px;
 }
 
 .phone {
