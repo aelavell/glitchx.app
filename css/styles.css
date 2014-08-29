@@ -213,6 +213,10 @@ blockquote {
   background-image: url("../images/share.jpg");
 }
 
+.support-phone {
+  margin-bottom:20px; 
+}
+
 .false-info {
   text-decoration: line-through;
   font-size: 0.8em;
@@ -286,7 +290,7 @@ blockquote {
 
 @media screen and (min-width: 970px) {
   #want-to-be {
-    margin-top: 22%;
+    margin-top: 135px;
   } 
   .desktop-only {
     visibility: visible;
