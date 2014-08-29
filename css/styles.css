@@ -26,6 +26,15 @@ footer {
   height: 80px;
 }
 
+.mobile-only {
+  
+}
+
+.desktop-only {
+  visibility:hidden;
+  height:0;
+}
+
 #nav-menu {
   display: block;
   margin-left: auto;
@@ -130,7 +139,7 @@ blockquote {
 }
 
 #want-to-be {
-  margin-top: 20%;
+  margin-top: 0;
 }
 
 #trailer {
@@ -139,13 +148,19 @@ blockquote {
   width: 320px;
 }
 
-#demo-phone {
+#demo-phone-mobile {
   width:256px;
-  height: 530px;
+  margin-top:-50px;
+}
+
+#demo-phone {
+  visibility: hidden;
   background-size: contain;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px; 
+  width: 0;
+  height: 0;
 }
 
 #apple-appstore-badge {
@@ -255,6 +270,33 @@ blockquote {
   }
   li {
     font-size: 1.2em; 
+  }
+  #demo-phone-mobile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  #demo-phone {
+    visibility: visible;
+    width: 256px;
+    height: 511px;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  #want-to-be {
+    margin-top: 22%;
+  } 
+  .desktop-only {
+    visibility: visible;
+    height: auto;
+  }
+  .mobile-only {
+    visibility: hidden;
+    height: 0;
+  }
+  #demo-phone-mobile {
+    margin: 0; 
   }
 }
 
