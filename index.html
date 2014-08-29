@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Glitch Wizard</title>
+    <title>Glitch Wizard - Photo databending app for iPhone. Glitch. GIF. Share.</title>
+    <meta name="description" content="So, you want to be a wizard? There's an app for that. Glitch Wizard gives you magic power to glitch photos, create GIFs and share them. iOS 7+">
+    
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -20,13 +22,46 @@
 
   <body>
     <header>
-        <img id="logo" src="images/logo.png">
-    </header>  
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img id="logo" src="images/logo.png">
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/support/">Support</a></li>
+              <li><a href="/press/">Press</a></li>
+              <li><a href="mailto:glitchwizardapp@gmail.com">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
     
+    
+    <h1>So, you want to be a wizard? </h1>
+    
+    <video id="demo-phone" class="centered" poster="images/iPhone.jpg" autoplay loop>
+      <source type="video/mp4" src="video/GlitchDemo.mp4"/> 
+    </video>
+    
+    <h2>There's an app for that.</h2>
+    
+    <!--
     <div class="container">
       <div class="row">
         <div class="col-md-1"></div>
-                <div class="col-md-6">
+        <div class="col-md-6">
           <h1 id="want-to-be">So, you want to be a wizard? </h1>
           <h2>There's an app for that.</h2> 
 
@@ -36,43 +71,41 @@
         </div>
         
         <div class="col-md-4">
-          <center>
           <video id="demo-phone" class="centered" poster="images/iPhone.jpg" autoplay loop>
-            <!--<source type="video/ogg" src="video/GlitchWizardDemo.ogg"/>--> 
             <source type="video/mp4" src="video/GlitchDemo.mp4"/> 
           </video>
-          </center>
         </div> 
       </div>
     </div>
+    -->
     
 
     
-    <blockquote>
-      <p> Safer than throwing your phone into a wall, with way cooler results. </p>
+    <blockquote class="centered-text">
+      <p> "Safer than throwing your phone into a wall, with way cooler results." </p>
       <p> <cite>- <a href="https://twitter.com/@docpop" target="_blank"> Doctor Popular</a></cite></p>
     </blockquote>
 
     <section class="container">
       <div class="row">
         <div class="col-md-4">
-          <h2>Glitch</h2>
+          <h2 class="glitch-gif-share-text">Glitch</h2>
           <div class="glitch-gif-share" id="glitch"></div>
           
-          <h3>Your photos have secrets.</h3>
-          <p>Unlock them using Glitch Wizard's simple but powerful glitching interface.</p>
+          <h3 class="description-callout">Your photos have secrets.</h3>
+          <p class="centered-text">Unlock them using Glitch Wizard's simple but powerful glitching interface.</p>
         </div>
         <div class="col-md-4">
-          <h2>GIF</h2>
+          <h2 class="glitch-gif-share-text">GIF</h2>
           <div class="glitch-gif-share" id="gif"></div>
-          <h3>Create mind-bending animations.</h3>
-          <p>Glitch Wizard is the first app to export animations created through the process of glitching an image.</p>
+          <h3 class="description-callout">Create mind-bending animations.</h3>
+          <p class="centered-text">Glitch Wizard exports animations created through the process of glitching an image.</p>
         </div>
         <div class="col-md-4">
-          <h2>Share</h2>
+          <h2 class="glitch-gif-share-text">Share</h2>
           <div class="glitch-gif-share" id="share"></div>
-          <h3>Cast your spells on the web.</h3>
-          <p>Share to Twitter, Tubmlr, Facebook and Instagram with the tap of a button.</p>
+          <h3 class="description-callout">Cast your spells on the web.</h3>
+          <p class="centered-text">Share to Twitter, Tubmlr, Facebook and Instagram with the tap of a button.</p>
         </div>
 
       </div>
@@ -90,6 +123,7 @@
     <h1></h1>-->
 
     <img id="apple-appstore-badge" class="centered" src="images/coming_soon.png">
+    <h3>September 2nd, 2014.</h3>
     <div id="fullwidth-pic-end"></div>
     
     <footer>
