@@ -227,6 +227,7 @@ blockquote {
   margin-top: 0;
   background: black;
   border: 0;
+  z-index:1;
 }
 
 @media screen and (min-width:321px) {
