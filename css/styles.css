@@ -1,0 +1,194 @@
+body { 
+  color: white; 
+  font-family: "Avenir", Arial, sans-serif;
+  font-weight: 100;
+  background-color: #101010;
+  height: 100%;
+}
+
+header, footer {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+}
+
+footer {
+  height: 80px; 
+}
+
+header {
+  padding-top:18px; 
+}
+
+#nav-menu-button {
+  margin-top: 24px;
+  width: 22px;
+  height:14px;
+}
+
+#logo {
+  display: block;
+  width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#thinkrad {
+  margin-top: 5px;
+  height: 75px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+h1 { 
+  font-size: 1.6em;
+}
+
+h2 { 
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 1.0em;
+  text-align: center;
+}
+
+blockquote {
+  border-left: 0;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#want-to-be {
+  margin-top: 20%;
+}
+
+#trailer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 320px;
+}
+
+#demo-phone {
+  width:256px;
+  height: 530px;
+  background-size: contain;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; 
+}
+
+#apple-appstore-badge {
+  display: block;
+  width: 230px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#fullwidth-pic-start {
+  display: block;
+  background-image: url("../images/ocean.jpg");
+  background-size: cover;
+  height: 320px;
+}
+
+#fullwidth-pic-end {
+  display: block;
+  background-image: url("../images/docpop.gif");
+  background-size: contain;
+  height: 320px;
+}
+
+.glitch-gif-share {
+  display: block;
+  background-size: contain;
+  margin-left: -15px;
+  padding: 0;
+  width: 320px;
+  height: 320px;
+}
+
+#glitch {
+  background-image: url("../images/glitch.jpg");
+}
+
+#gif {
+  background-image: url("../images/gif.gif");
+}
+
+#share {
+  background-image: url("../images/share.jpg");
+}
+
+.false-info {
+  text-decoration: line-through;
+  font-size: 0.8em;
+  color: grey;
+}
+
+@media screen and (min-width:321px) {
+  #fullwidth-pic-start {
+    height: 500px; 
+  }
+  
+  #fullwidth-pic-end {
+    background-position: -80px;
+  }
+  
+  .glitch-gif-share {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #logo {
+    margin-left: 20px;
+    width: 256px;
+    height: 24px;
+  }
+  h1 {
+    font-size:3em;
+  }
+  h2 {
+    font-size:2.2em;
+  }
+  #trailer {
+    width:512px;
+    height:287px;
+  }
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
