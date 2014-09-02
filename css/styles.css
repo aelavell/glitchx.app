@@ -146,6 +146,7 @@ blockquote {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 320px;
+  height: 320px;
 }
 
 #demo-phone-mobile {
@@ -267,8 +268,8 @@ blockquote {
     font-size:1.5em; 
   }
   #trailer {
-    width:512px;
-    height:287px;
+    width:768px;
+    height:432px;
   }
   p {
     font-size: 1.2em; 
