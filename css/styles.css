@@ -5,6 +5,45 @@ body {
   background-color: #101010;
   height: 100%;
 }
+/*
+nav {
+  width: 100%;
+  clear: both;
+  position:relative;
+  bottom:47px;
+  z-index:50px;
+  padding-right: 25px;
+}
+
+nav ul {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+*/
+
+.social {
+  display: inline-block;
+  width: 50px;
+  text-decoration:none;
+  padding-top:15px; 
+  float: right;
+}
+
+.social-nav {
+  position: absolute;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right:10px;
+}
 
 a {
   color: #e8488c;
@@ -99,6 +138,9 @@ footer {
 #thinkrad {
   margin-top: 5px;
   height: 75px;
+  display:block;
+  float: left;
+  visibility: hidden;
 }
 
 h1, h2, h3 {
@@ -238,6 +280,14 @@ blockquote {
 @media screen and (min-width:321px) {
   #fullwidth-pic-start {
     height: 500px; 
+  }
+  
+  #thinkrad {
+    visibility: visible; 
+  }
+  
+  .social-nav { 
+    right: 5px;
   }
   
   #fullwidth-pic-end {
