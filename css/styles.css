@@ -5,25 +5,27 @@ body {
   background-color: #101010;
   height: 100%;
 }
-/*
-nav {
-  width: 100%;
-  clear: both;
-  position:relative;
-  bottom:47px;
-  z-index:50px;
-  padding-right: 25px;
+
+.youtube-trailer {
+  width:270px;
+  height:151px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-nav ul {
-    text-transform: uppercase;
-    text-align: right;
+.modal-trailer {
+  background: #161616;
+  color: white;
 }
 
-nav ul li {
-    display: inline-block;
+.modal-footer-trailer {
+  border-top: 1px solid #323232;
 }
-*/
+
+.modal-header-trailer {
+  border-bottom: 1px solid #323232;  
+}
 
 .social {
   display: inline-block;
@@ -72,6 +74,15 @@ footer {
 .desktop-only {
   visibility:hidden;
   height:0;
+  padding: 0;
+  margin: 0;
+}
+
+.medium-and-up {
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #nav-menu {
@@ -124,6 +135,14 @@ footer {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #e8488c;
+}
+
+.watch-trailer {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
 #logo {
@@ -181,7 +200,7 @@ blockquote {
 }
 
 #want-to-be {
-  margin-top: 0;
+  margin-top: 8px;
 }
 
 #trailer {
@@ -193,7 +212,7 @@ blockquote {
 
 #demo-phone-mobile {
   width:256px;
-  margin-top:-50px;
+  margin-top:-80px;
 }
 
 #demo-phone {
@@ -204,6 +223,8 @@ blockquote {
   border-radius: 20px; 
   width: 0;
   height: 0;
+  margin-top:0;
+  padding-top:0;
 }
 
 #apple-appstore-badge {
@@ -303,6 +324,13 @@ blockquote {
   }
 }
 
+@media screen and (min-width:540px) {
+  .youtube-trailer {
+    width:560px;
+    height:315px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #logo {
     width: 256px;
@@ -337,11 +365,20 @@ blockquote {
     width: 256px;
     height: 511px;
   }
+  .medium-and-up {
+    visibility: visible;
+    height: auto;
+  }
+  .youtube-trailer {
+    width:560px;
+    height:315px;
+  }
 }
 
 @media screen and (min-width: 970px) {
   #want-to-be {
-    margin-top: 135px;
+    margin-top: 75px;
+    padding-bottom: 10px;
   } 
   .desktop-only {
     visibility: visible;
@@ -350,6 +387,8 @@ blockquote {
   .mobile-only {
     visibility: hidden;
     height: 0;
+    padding: 0;
+    margin: 0;
   }
   #demo-phone-mobile {
     margin: 0; 

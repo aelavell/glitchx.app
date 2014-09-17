@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Glitch Wizard - Photo databending app for iPhone. Glitch. GIF. Share.</title>
+    <title>Glitch Wizard - iPhone Glitch app</title>
     <meta name="description" content="So, you want to be a wizard? There's an app for that. Glitch Wizard gives you magic power to glitch photos, create GIFs and share them. iOS 7+">
     
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
@@ -53,12 +53,13 @@
         <div class="col-md-1"></div>
         <div class="col-md-6">
           <h1 id="want-to-be">So, you want to be a wizard? </h1>
-          <h2 class="desktop-only">There's an app for that.</h2> 
+           <h2 class="desktop-only">There's an app for that.</h2> 
 
-          <blockquote class="centered-text desktop-only">
-            <p> "Safer than throwing your phone into a wall, with way cooler results." </p>
-            <p> <cite>- <a href="https://twitter.com/@docpop" target="_blank"> Doctor Popular</a></cite></p>
-          </blockquote>
+          <center><a href="#" class="watch-trailer desktop-only" data-toggle="modal" data-target="#basicModal"><img src="images/WatchTrailer.png"></a></center>
+          
+          <a href="https://itunes.apple.com/app/id904640439" target="_blank">
+            <img id="apple-appstore-badge" class="centered desktop-only" src="images/download_on_the_app_store.png">
+          </a>
         </div>
         
         <div class="col-md-4">
@@ -72,10 +73,15 @@
     </div>
    
     <h2 class="mobile-only">There's an app for that.</h2> 
+    
+    <center><a href="#" class="watch-trailer mobile-only" data-toggle="modal" data-target="#basicModal"><img src="images/WatchTrailer.png"></a></center>
 
     <blockquote class="centered-text mobile-only">
       <p> "Safer than throwing your phone into a wall, with way cooler results." </p>
       <p> <cite>- <a href="https://twitter.com/@docpop" target="_blank"> Doctor Popular</a></cite></p>
+      <a href="https://itunes.apple.com/app/id904640439" target="_blank">
+      <img id="apple-appstore-badge" class="centered mobile-only" src="images/download_on_the_app_store.png">
+      </a>
     </blockquote>
 
     
@@ -104,20 +110,37 @@
 
       </div>
     </section>
+    
+    
 
-     <iframe id="trailer" class="centered" src="//www.youtube.com/embed/brfIMK-GpmI" frameborder="0" allowfullscreen></iframe>
-   
+  
     <a href="https://itunes.apple.com/app/id904640439" target="_blank">
       <img id="apple-appstore-badge" class="centered" src="images/download_on_the_app_store.png">
     </a>
-
-    <h2><strong>$1.99</strong></h2>
-    <h1></h1>
+    
+              <blockquote class="centered-text desktop-only">
+            <p> "Safer than throwing your phone into a wall, with way cooler results." </p>
+            <p> <cite>- <a href="https://twitter.com/@docpop" target="_blank"> Doctor Popular</a></cite></p>
+          </blockquote>
     
     <div id="fullwidth-pic-end"></div>
     
-    <footer>
-<a href="http://thinkrad.net" target="_blank"><img id="thinkrad" class="centered" src="images/thinkrad_logo.png"></a>
+    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-trailer modal-no-bottom">
+        <div class="modal-content modal-trailer modal-no-top">
+          <div class="modal-header modal-trailer modal-header-trailer"></div>
+            <div class="modal-body modal-trailer">
+                <iframe class="youtube-trailer" src="//www.youtube.com/embed/brfIMK-GpmI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer modal-trailer modal-footer-trailer">
+                <button type="button" class="btn btn-default modal-trailer" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <footer>
+    <a href="http://thinkrad.net" target="_blank"><img id="thinkrad" class="centered" src="images/thinkrad_logo.png"></a>
       
       <nav class="social-nav"> 
         <ul>
