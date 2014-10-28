@@ -148,10 +148,9 @@ footer {
 #logo {
   display: inline;
   width: 220px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 18px;
-  margin-left: 20px;
+  margin-right: auto;  
+  margin-top:4px;
+  margin-left: 0px;
 }
 
 #thinkrad {
@@ -332,10 +331,6 @@ blockquote {
 }
 
 @media screen and (min-width: 768px) {
-  #logo {
-    width: 256px;
-    height: 24px;
-  }
   h1 {
     font-size:3em;
   }
