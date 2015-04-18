@@ -56,6 +56,10 @@ a:hover {
   text-decoration: none;
 }
 
+a:visited {
+  color: #e8488c;
+}
+
 header, footer {
   width: 100%;
   background-color: black;
