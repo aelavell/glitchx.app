@@ -215,7 +215,6 @@ blockquote {
 
 #demo-phone-mobile {
   width:256px;
-  margin-top:-80px;
 }
 
 #demo-phone {
@@ -327,10 +326,20 @@ blockquote {
   }
 }
 
+.vimeo {
+  width:300px;
+  height:220px;
+}
+
 @media screen and (min-width:540px) {
   .youtube-trailer {
     width:560px;
     height:315px;
+  }
+  
+  .vimeo {
+    width: 500px;
+    height: 367px;
   }
 }
 
