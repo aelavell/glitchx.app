@@ -1,0 +1,35 @@
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*--------------------
+HIDING SHIT
+--------------------*/
+
+@media (max-width: 767px) {
+    .mobile-only {
+        display: block !important;   
+    }
+    
+  .tablet-up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none !important;   
+    }
+    
+  .tablet-up {
+    display: block !important;
+  }
+}

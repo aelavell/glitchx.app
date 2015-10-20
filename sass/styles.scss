@@ -1,0 +1,467 @@
+@import "_base.scss"; 
+
+.video-section {
+    background: black;
+    padding: 40px;
+}
+
+.points-section {
+  background: black;
+  padding-bottom: 26px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.feature-header {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.glitchwizard-icon {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; 
+  margin-bottom: 16px;
+}
+
+.news-icon {
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+}
+
+.final-saying {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.bottom-quote {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.social-icon {
+  padding-top: 16px;
+}
+
+.follow-us-text {
+
+}
+
+body { 
+  color: white; 
+  font-family: "Avenir", Arial, sans-serif;
+  font-weight: 100;
+  background-color: #181818;
+  height: 100%;
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-color: #101010;  
+  } 
+}
+
+.youtube-trailer {
+  width:270px;
+  height:151px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-trailer {
+  background: #161616;
+  color: white;
+}
+
+.modal-footer-trailer {
+  border-top: 1px solid #323232;
+}
+
+.modal-header-trailer {
+  border-bottom: 1px solid #323232;  
+}
+
+.social {
+  display: inline-block;
+  width: 50px;
+  text-decoration:none;
+  padding-top:15px; 
+  float: right;
+}
+
+.social-nav {
+  position: absolute;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right:10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+header, footer {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+}
+
+.desktop-only {
+  visibility:hidden;
+  height:0;
+  padding: 0;
+  margin: 0;
+}
+
+.medium-and-up {
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-menu {
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  float: right;
+  font-size: 1.1em;
+  word-spacing: 30px;
+  text-transform: uppercase;
+}
+
+#nav-menu-button {
+  margin-top: 24px;
+  width: 22px;
+  height:14px;
+}
+
+.navbar-nav {
+  margin-top:5px;   
+  font-family: "Avenir", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #e8488c;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #e8488c;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ff0062;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top:10px;
+  border-color: #e8488c;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: black; 
+}
+
+.navbar-default .navbar-toggle:focus {
+  background: black; 
+}
+  
+.navbar-default .navbar-collapse {
+  border: none; 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e8488c;
+}
+
+.watch-trailer {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  display: block;
+  width: 220px;
+  margin: 0 auto;  
+  margin-top:4px;
+}
+
+#thinkrad {
+  margin-top: 5px;
+  height: 75px;
+  display:block;
+  float: left;
+  visibility: hidden;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+h1 { 
+  font-size: 1.6em;
+}
+
+h2 { 
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 1.0em;
+}
+
+blockquote {
+  border-left: 0;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-text {
+  text-align: center; 
+}
+
+#want-to-be {
+  margin-top: 8px;
+}
+
+#trailer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 320px;
+}
+
+#demo-phone-mobile {
+  width:256px;
+}
+
+#demo-phone {
+  visibility: hidden;
+  background-size: contain;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; 
+  width: 0;
+  height: 0;
+  margin-top:0;
+  padding-top:0;
+}
+
+#apple-appstore-badge {
+  display: block;
+  width: 230px;
+  margin-bottom: 26px;
+}
+
+#fullwidth-pic-start {
+  display: block;
+  background-image: url("../images/ocean.jpg");
+  background-size: cover;
+  height: 320px;
+}
+
+#fullwidth-pic-end {
+  display: block;
+  background-image: url("../images/docpop.gif");
+  background-size: contain;
+  height: 320px;
+}
+
+.glitch-gif-share-text {
+  font-weight: 600;
+}
+
+.description-callout {
+  font-weight:500;
+}
+
+.glitch-gif-share {
+  display: block;
+  background-size: contain;
+  margin-left: -15px;
+  padding: 0;
+  width: 320px;
+  height: 320px;
+}
+
+#glitch {
+  background-image: url("../images/glitch.jpg");
+}
+
+#gif {
+  background-image: url("../images/gif.gif");
+}
+
+#share {
+  background-image: url("../images/share.jpg");
+}
+
+.support-phone {
+  margin-bottom:20px; 
+}
+
+.false-info {
+  text-decoration: line-through;
+  font-size: 0.8em;
+  color: grey;
+}
+
+.press-screenshot {
+  width:80px;
+}
+
+.navbar-default {
+  margin-top: 0;
+  background: black;
+  border: 0;
+  z-index:1;
+}
+
+@media screen and (min-width:321px) {
+  #fullwidth-pic-start {
+    height: 500px; 
+  }
+  
+  #thinkrad {
+    visibility: visible; 
+  }
+  
+  .social-nav { 
+    right: 5px;
+  }
+  
+  #fullwidth-pic-end {
+    background-position: -80px;
+  }
+  
+  .glitch-gif-share {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+  }
+}
+
+.vimeo {
+  width:300px;
+  height:220px;
+}
+
+@media screen and (min-width:540px) {
+  .youtube-trailer {
+    width:560px;
+    height:315px;
+  }
+  
+  .vimeo {
+    width: 500px;
+    height: 367px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size:3em;
+  }
+  h2 {
+    font-size:2.2em;
+  }
+  h3 {
+    font-size:1.5em; 
+  }
+  #trailer {
+    width:768px;
+    height:432px;
+  }
+  p {
+    font-size: 1.2em; 
+  }
+  li {
+    font-size: 1.2em; 
+  }
+  #demo-phone-mobile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  #demo-phone {
+    visibility: visible;
+    width: 256px;
+    height: 511px;
+  }
+  .medium-and-up {
+    visibility: visible;
+    height: auto;
+  }
+  .youtube-trailer {
+    width:560px;
+    height:315px;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  #want-to-be {
+    margin-top: 75px;
+    padding-bottom: 10px;
+  } 
+  .desktop-only {
+    visibility: visible;
+    height: auto;
+  }
+
+  #demo-phone-mobile {
+    margin: 0; 
+  }
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
