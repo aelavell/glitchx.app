@@ -1,6 +1,13 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
+
+  .support-gif {
+    margin-top: 10px;
+    width: 300px;
+    margin-bottom: -18px;
+  }
+
 /*--------------------
 HIDING SHIT
 --------------------*/
@@ -25,11 +32,6 @@ HIDING SHIT
 
 
 
-  .support-gif {
-    margin-top: 10px;
-    width: 300px;
-    margin-bottom: -18px;
-  }
 
   .points-container {
     display: flex;
