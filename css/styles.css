@@ -21,8 +21,21 @@ HIDING SHIT
   padding: 40px; }
 
 .points-section {
-  background: black;
-  padding-bottom: 26px; }
+  margin-top: 50px;}
+
+
+
+  .points-container {
+    display: flex;
+    place-items: center; /* Center both vertically and horizontally */
+    margin-top: 20px;
+    background: #000;
+    padding-top: 15px;
+  }
+
+.phone {
+  width: 30%;
+}
 
 .fullwidth {
   width: 100%; }
@@ -31,9 +44,14 @@ HIDING SHIT
   margin-top: 26px;
   margin-bottom: 26px; }
 
+.navbar-title {
+  margin-top: 12px;
+  font-size: 33px;
+}
+
 .glitchwizard-icon {
   display: block;
-  width: 120px;
+  width: 190px;
   margin: 0 auto;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -61,7 +79,13 @@ body {
   font-family: "Avenir", Arial, sans-serif;
   font-weight: 100;
   background-color: #181818;
-  height: 100%; }
+  height: 100%; 
+    background-image: url('../images/glitchXwallpaper-landscape0.png');
+    background-size: cover;  /* Scales the image to cover the entire element */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+    background-position: center center; /* Centers the image */
+}
 
 @media (min-width: 1025px) {
   body {
@@ -189,10 +213,8 @@ header, footer {
   visibility: hidden; }
 
 h1, h2, h3 {
-  text-transform: uppercase;
-  text-align: center;
   font-weight: 100;
-  letter-spacing: 0.1em; }
+}
 
 h1 {
   font-size: 1.6em; }
@@ -201,7 +223,7 @@ h2 {
   font-size: 1.3em; }
 
 h3 {
-  font-size: 1.1em; }
+  font-size: 1.32em; }
 
 p {
   font-size: 1.0em; }
@@ -329,6 +351,14 @@ blockquote {
     width: 500px;
     height: 367px; } }
 @media screen and (min-width: 768px) {
+  .points-container {
+    margin-top: 150px;
+  }
+
+  .glitchwizard-icon {
+    margin-top: 100px;
+  }
+
   h1 {
     font-size: 3em; }
 
@@ -336,7 +366,7 @@ blockquote {
     font-size: 2.2em; }
 
   h3 {
-    font-size: 1.5em; }
+    font-size: 1.32em; }
 
   #trailer {
     width: 768px;
@@ -346,7 +376,8 @@ blockquote {
     font-size: 1.2em; }
 
   li {
-    font-size: 1.2em; }
+    font-size: 1.2em; 
+    margin-bottom: 10px;}
 
   #demo-phone-mobile {
     visibility: hidden;
@@ -364,7 +395,9 @@ blockquote {
 
   .youtube-trailer {
     width: 560px;
-    height: 315px; } }
+    height: 315px; }
+  
+}
 @media screen and (min-width: 970px) {
   #want-to-be {
     margin-top: 75px;
