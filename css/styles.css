@@ -25,6 +25,12 @@ HIDING SHIT
 
 
 
+  .support-gif {
+    margin-top: 10px;
+    width: 300px;
+    margin-bottom: -18px;
+  }
+
   .points-container {
     display: flex;
     place-items: center; /* Center both vertically and horizontally */

@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="../css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="pragma" content="no-cache" />
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T68PXT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T68PXT');</script>
-    <!-- End Google Tag Manager -->
   </head>
 
   <body>
@@ -31,7 +22,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>-->
-          <a href="/"> <img class="logo" src="../images/logo-01.png"></a>
+          <!-- REPLACE ME -->
+          <!--<a href="/"> <img class="logo" src="images/logo-01.png"></a>--> 
+          <h1 class="navbar-title">Glitch X</h1>
+
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,193 +33,33 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">Home</a></li>
             <li><a href="/support/">Support</a></li>
-            <li><a href="/press/">Press</a></li>
-            <li><a href="mailto:glitchwizardapp@gmail.com">Contact</a></li>
+            <li><a href="/privacy/">Privacy</a></li>
+            <li><a href="mailto:allan@thinkrad.net">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
      </div>
     </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="support-gif" src="../images/GXFilters.gif" />
+          <h3 class="feature-header"><strong>Choose filters with the name picker</strong></h3>
+        </div>
+        <div class="col-md-4">
+           <img class="support-gif" src="../images/GXModifyFilters.gif" />
+          <h3 class="feature-header"><strong>Modify filters by swiping around</strong></h3>
+        </div>
+        <div class="col-md-4">
+           <img class="support-gif" src="../images/GXSwipeAway.gif" />
+          <h3 class="feature-header"><strong>Hold to capture, swipe away to lock in</strong></h3>
+        </div>
+      </div>
   
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <a class="anchor" name="undo"></a>
-          <h1>FAQ</h1>
-
-          <ul>
-            <li><a href="#featured">HOW DO I GET MY GLITCH FEATURED?</a></li>
-            <li><a href="#undo">HOW DO I UNDO?</a></li>
-            <li><a href="#share">HOW DOES THE SHARE SCREEN WORK?</a></li>
-            <li><a href="#gif">HOW DO I EXPORT A GIF?</a></li>
-            <li><a href="#inappropriate">HOW CAN I REPORT INAPPROPRIATE FEATURED GLITCHES?</a></li>
-            <li><a href="#android">IS GLITCH WIZARD COMING TO ANDROID?</a></li>
-            <li><a href="#help">WHERE CAN I FIND FURTHER ASSISTANCE?</a></li>
-          </ul>
-            
-          
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-
-      <a name="featured"></a>
-      <h3 class="centered">HOW DO I GET MY GLITCH FEATURED?</h3>
-      <p class="centered-text">Post your glitch to a social network with the <strong>#glitchwizard</strong> tag, and if it's super dope we'll probably take notice and ask you for a GIF. You can also submit glitches for consideration to <a href="mailto:glitchwizardapp@gmail.com">glitchwizardapp@gmail.com</a>.</p>
-
-
-      <h3>HOW DO I UNDO?</h3> 
-      <div class="row">
-        <div class="col-md-6">
-          
-          <p>Every time you apply a glitch, you're adding a frame to an animation. This frame
-          will appear on the timeline just above the glitch list. If you don't like a particular
-          frame, just drag it out! </p>
-          
-          <video class="centered" autoplay loop> 
-            <source type="video/ogg" src="../video/Undo.ogg"/>
-            <source type="video/mp4" src="../video/Undo.mp4"/> 
-          </video>     
-        </div>
-        <div class="col-md-6">
-          <p>If you want to clear everything and start over, tap the
-          gear icon on the right side of the screen, then tap "Clear Frames".</p>
-          <img class="centered" src="../images/clearframes.png" />
-        </div>
-      </div>
-      
-      <a class="anchor" name="share"></a>
-      <h3 class="centered-text">HOW DOES THE SHARE SCREEN WORK?</h3>
-      <p class="centered-text">You have 2 options for what kind of output you want: STILL and
-          ANIMATED. </p>
-      <div class="row">
-        <div class="col-md-6">
-          <br>
-          <p>STILL takes the last frame of your glitch, and treats it
-          as a static image.</p>
-          <br>
-          <img src="../images/share.png" class="centered" class="support-phone">
-        </div>
-        <div class="col-md-6">
-          <p>ANIMATED takes the result of every glitch you
-          applied in sequence, and creates an animation out of it. Which mode
-          you are in depends on which tab is selected at the top of the
-          screen.</p>
-          <video autoplay loop class="centered support-phone"> 
-            <source type="video/ogg" src="../video/Animated.ogg"/> 
-            <source type="video/mp4" src="../video/Animated.mp4"/> 
-          </video>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <p>Now that you've selected STILL or ANIMATED, you can proceed
-          with the many options that this screen provides. Try editing the
-          caption beside the image. Tapping on Twitter, Facebook and Tumblr
-          will enable sharing to those networks. If you haven't done so before,
-          you will be redirected to safari in order to authorize your account
-          for each service you tap. This will only happen the first time. When
-          you hit the pink share button, Glitch Wizard will share to all of the
-          highlighted networks simultaneously. Networks you have shared to will 
-          be greyed out, and won't be shared to if you share again to more networks.
-          </p>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <center>
-            <img src="../images/sharing.png"/>
-          </center>
-        </div>
-        <div class="col-md-4">
-          <center>
-            <img src="../images/shared.png"/>
-          </center>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <br/>
-          <ul>
-            <li>
-            Instagram doesn't allow third-party apps to share to it directly,
-            so to share you have to exit Glitch Wizard and open
-            your image it in Instagram. <b>Open in Instagram</b> button automates
-            this process for you.
-            </li>
-            <li><b>Export to camera roll</b> saves a .MOV to your phone.</li>
-            <li><b>Send via Email</b> exports a .GIF, attaches it to an email, and opens
-            an email client to allow you to send it off.</li>
-          </ul>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-      
-      <a name="gif"></a>
-      <h3 class="centered">HOW DO I EXPORT A GIF?</h3>
-      <p class="centered-text">GIFs are currently exportable through the "Send Via Email" option on the <a href="#share">Share Screen</a> with the animated tab selected. We realize that this is <strong>not</strong> obvious, and will be streamlining the design in future updates.</p>
-   
-
-    <div class="row">
-      <a class="anchor" name="inappropriate"></a>
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-        <h3>HOW CAN I REPORT INAPPROPRIATE FEATURED GLITCHES?</h3>
-        <p>In the unfortunate case that you find one of the glitches that we feature
-        to be inappropriate, you can report directly to us in-app. Just tap on the 
-        featured glitch to enter the expanded view mode (where you can swipe left 
-        and right to scroll through glitches), tap "Options", tap "Report inappropriate 
-        content", and an email will be drafted with the relevant information.</p>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-        <center>
-        <video autoplay loop> 
-          <source type="video/ogg" src="../video/Inappropriate.ogg"/>
-          <source type="video/mp4" src="../video/Inappropriate.mp4"/> 
-        </video>
-        </center>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-      
-    <a name="android"></a>
-    <h3 class="centered">IS GLITCH WIZARD COMING TO ANDROID?</h3>
-    <p class="centered-text">Maybe. Glitch Wizard is 100% native iOS code. We haven't done a drop of work on Android yet - <a href="https://twitter.com/@glitchwizard">Follow us on Twitter</a> and we'll let you know if that becomes a possibility ;). </p>
-
-        
-    <a class="anchor" name="help"></a>
-    <h3 class="centered">WHERE CAN I FIND FURTHER ASSISTANCE?</h3>
-    <p class="centered-text">Still confused? We'd be happy to help. Email <a href="mailto:glitchwizardapp@gmail.com">glitchwizardapp@gmail.com</a> with questions and concerns.</p>
-
-
   </div>
   
   
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-4"><a href="https://twitter.com/@glitchwizard" target="_blank"><center><i class="social-icon fa fa-2x fa-twitter"></i></center></a></div>
-          <div class="col-xs-4"><a href="https://instagram.com/glitchwizardapp" target="_blank"><center><i class="social-icon fa fa-2x fa-instagram"></i></center></a></div>
-            <div class="col-xs-4"><a href="https://facebook.com/glitchwizardapp" target="_blank"><center><i class="social-icon fa fa-2x fa-facebook"></i></center></a></div>
-        </div>
-      </div>
-    </footer>
-
 </body>
   
-
-
 </html>
